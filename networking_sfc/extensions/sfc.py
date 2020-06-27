@@ -422,11 +422,11 @@ RESOURCE_ATTRIBUTE_MAP = {
 
 sfc_quota_opts = [
     cfg.IntOpt('quota_port_chain',
-               default=10,
+               default=100,
                help=_('Maximum number of port chains per tenant. '
                       'A negative value means unlimited.')),
     cfg.IntOpt('quota_port_pair_group',
-               default=10,
+               default=100,
                help=_('maximum number of port pair group per tenant. '
                       'a negative value means unlimited.')),
     cfg.IntOpt('quota_port_pair',
